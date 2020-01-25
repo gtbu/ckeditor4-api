@@ -66,14 +66,7 @@
             }
 
             var win = window.open(url, name || defaults.browser.name, opts || defaults.browser.opts);
-            var origin;
-
-            try {
-                origin = win.origin || win.location.origin;
-            } catch (e) {
-                console.log(e);
-                origin = CKEDITOR.api.url.origin(url);
-            }
+            var origin = CKEDITOR.api.url.origin(url);
 
             window.addEventListener('message', function (ev) {
                 if (ev.origin === origin && ev.source === win) {
