@@ -1,6 +1,6 @@
 # API
 
-This plugin provides APIs for other plugins to work with browser windows, dialog UI elements, media elements, htmlParser elements, URLs and *XMLHttpRequest*s( fork of <a href=https://github.com/Sestowner target=_blank> Sestowner</a> )
+This plugin provides APIs for other plugins to work with browser windows, dialog UI elements, media elements, htmlParser elements, URLs and *XMLHttpRequest*s( fork of <a href=https://github.com/Akilli target=_blank> Akilli</a> )
 
 ## Demo
 
